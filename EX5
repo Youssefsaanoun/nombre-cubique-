@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+void main()
+{
+int N,c,u,d,s;
+printf("donner N ");
+scanf("%d",&N);
+if((100<N) && (N<999)){
+		printf("donner N");}
+c=N/100;
+d=(N%100)/10;
+u=N%10;
+
+s=((c*c*c)+(d*d*d)+(u*u*u));
+if(s==N){
+
+	printf("N est cubique %d ",N);}
+	else{
+
+    printf("N n'est pas cubique %d",N);
+
+	}
+return 0;
+
+}
